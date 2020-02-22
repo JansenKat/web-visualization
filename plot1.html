@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Plot 1</title>
+    <title>Latitude v Tempurature</title>
 
     <link rel="stylesheet" href="bootstrap.min.css">
 
@@ -26,7 +26,7 @@
         <!-- Nav Bar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <a class="navbar-brand" href="index.html">
-                <h4>Navbar</h4>
+                <h4>Latitude</h4>
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
@@ -41,10 +41,10 @@
                             aria-haspopup="true" aria-expanded="false">Plots</a>
 
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="plot1.html">Plot 1</a>
-                            <a class="dropdown-item" href="plot2.html">Plot 2</a>
-                            <a class="dropdown-item" href="plot3.html">Plot 3</a>
-                            <a class="dropdown-item" href="plot4.html">Plot 4</a>
+                            <a class="dropdown-item" href="plot1.html">v Max Temp</a>
+                            <a class="dropdown-item" href="plot2.html">v Humidity</a>
+                            <a class="dropdown-item" href="plot3.html">v Cloudiness</a>
+                            <a class="dropdown-item" href="plot4.html">v Wind Speed</a>
                         </div>
                     </li>
                     
@@ -66,12 +66,21 @@
             <div class="card text-dark bg-light mb-3" style="max-width: 45rem;">
                 <!-- Display Title, Plot, and Description-->
                 <!-- Put into colored box, color offset from background (bootstrap darkly color 3)-->
-                <div class="card-header text-white"><h3>Plot Name</h3></div>
+                <div class="card-header text-white"><h3>Latitude v Tempurature</h3></div>
                 <br/>
                 <img src="Resources/assets/images/Fig1.png" class="img-fluid" style="padding: 0 15px;">
                 <div class="card-body">
                     <p class="card-text">
-                        Describe Plot
+                        It's not linear but parabolic, like a frown. Closer to the equator (latitude = 0) is hotter. 
+                        <br/>
+                        Something we've all heard and know, but it's nice to see proof sometimes.
+                        <br/>
+                        <br/>
+                        One additional observation of note, the negative latitudes do not descrease as much as the positive ones. 
+                        <br/>
+                        If you think about it you can come to a conclusion - Antarctica doesn't have cities. 
+                        <br/>
+                        Countries like Canada, Russia, Greenland, and Iceland are much further north while South America, Africa and Australia don't reach as far south.
                     </p>
                   </div>
             </div>
@@ -84,21 +93,25 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-1 col-sm-6">
-                            <a href = "plot1.html"> <img src="Resources/assets/images/Fig1.png" class="img-fluid" alt=""></a>
+                            <p>v Tempurature</p>
+                            <a href = "plot1.html"> <img src="Resources/assets/images/Fig1.png" class="img-fluid" alt="lat_v_temp.png"></a>
                         </div>
                         <div col-1></div>
                         <div class="col-1 col-sm-6">
-                            <a href = "plot2.html"> <img src="Resources/assets/images/Fig2.png" class="img-fluid" alt=""></a>
+                            <p>v Humidity</p>
+                            <a href = "plot2.html"> <img src="Resources/assets/images/Fig2.png" class="img-fluid" alt="lat_v_humid.png"></a>
                         </div>
                     </div>
                     <br/>
                     <div class="row">
                         <div class="col-1 col-sm-6">
-                            <a href = "plot3.html"> <img src="Resources/assets/images/Fig3.png" class="img-fluid" alt=""></a>
+                            <p>v Cloudiness</p>
+                            <a href = "plot3.html"> <img src="Resources/assets/images/Fig3.png" class="img-fluid" alt="lat_v_cloud.png"></a>
                         </div>
                         <div col-1></div>
                         <div class="col-1 col-sm-6">
-                            <a href = "plot4.html"> <img src="Resources/assets/images/Fig4.png" class="img-fluid" alt=""></a>
+                            <p>v Wind Speed</p>
+                            <a href = "plot4.html"> <img src="Resources/assets/images/Fig4.png" class="img-fluid" alt="lat_v_wind.png"></a>
                         </div>
                     </div>
                 </div>
