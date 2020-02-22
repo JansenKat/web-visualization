@@ -2,3 +2,9 @@
     height: 25rem;
     width: 25rem;
 }
+
+#hp  {
+    float: left;    
+    width: 200px;
+    margin: 0 15px 0 0;
+    }
